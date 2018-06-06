@@ -1,0 +1,14 @@
+Assignment 8.1
+a. Calculate the average salary by gender and smoking status.
+NA
+
+b. Which gender has the highest mean salary?
+Female 16.4353  Male 17.93035
+
+c. Report the highest mean salary.
+Male 17.93035
+
+d. Compare the spreads for the genders by calculating the standard deviation of salary by gender.
+
+tapply(salary, list(gender =gender), sd)
+Female  2.122113  Male  1.0077183
